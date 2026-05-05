@@ -43,7 +43,7 @@ Incluye sistema completo de autenticación con **JWT**.
 
 ## ⚙️ Configuración Local
 
-### 1. Clonar el repositorio
+## 1. Clonar el repositorio
 ```bash
 git clone https://github.com/BraianLeroyer/Escuela-SpringBoot.git
 cd reservaciones-service
