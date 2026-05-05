@@ -45,7 +45,7 @@ Incluye sistema completo de autenticación con **JWT**.
 ## 2. Clonar el repositorio
 ```bash
 git clone https://github.com/BraianLeroyer/Escuela-SpringBoot.git
-````
+
 cd reservaciones-service
 3. Configurar Base de Datos
 Crea una base de datos en PostgreSQL:
@@ -57,15 +57,16 @@ DB_PASSWORD=tu_contraseña
 JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 5. Ejecutar el proyecto
 Bash./mvnw spring-boot:run
+````
 O desde tu IDE (IntelliJ / Cursor / Eclipse).
 ---
 
 ## 📡 Endpoints Disponibles
 ##  Auth
 Método,Endpoint,Descripción
-POST,/api/auth/register,Registro de usuario
-POST,/api/auth/login,Inicio de sesión
+- *POST,/api/auth/register,Registro de usuario*
+- *POST,/api/auth/login,Inicio de sesión*
 Método,Endpoint,Descripción
-GET,/api/test/hello,Endpoint de prueba
+- *GET,/api/test/hello,Endpoint de prueba*
 <img width="924" height="470" alt="Captura de pantalla (34)" src="https://github.com/user-attachments/assets/fd3dfdaf-f764-48cc-92b7-1120838ce5ed" />
 ---
