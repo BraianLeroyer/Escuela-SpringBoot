@@ -66,6 +66,9 @@ POST,/api/auth/register,Registro de usuario
 POST,/api/auth/login,Inicio de sesión
 Método,Endpoint,Descripción
 GET,/api/test/hello,Endpoint de prueba
+
+
+
 <img width="924" height="470" alt="Captura de pantalla (34)" src="https://github.com/user-attachments/assets/120568d1-c22b-4856-910c-e3d932fe41e5" />
 
 
