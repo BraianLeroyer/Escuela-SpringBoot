@@ -30,7 +30,6 @@ Incluye sistema completo de autenticación con **JWT**.
 - Gestión de Reservaciones
 - CRUD de Servicios
 - Gestión de Clientes
-
 ---
 
 ## 🛠️ Requisitos Previos
@@ -41,67 +40,32 @@ Incluye sistema completo de autenticación con **JWT**.
 
 ---
 
-##📡 Endpoints Disponibles
-## 1. Auth
-Método,Endpoint,Descripción
-POST,/api/auth/register,Registro de usuario
-POST,/api/auth/login,Inicio de sesión
-Método,Endpoint,Descripción
-GET,/api/test/hello,Endpoint de prueba
----
-
 ## ⚙️ Configuración Local
 
 ## 2. Clonar el repositorio
 ```bash
 git clone https://github.com/BraianLeroyer/Escuela-SpringBoot.git
+````
 cd reservaciones-service
-2. Configurar Base de Datos
+3. Configurar Base de Datos
 Crea una base de datos en PostgreSQL:
 SQLCREATE DATABASE reservaciones;
-3. Configurar variables de entorno
+4. Configurar variables de entorno
 Crea un archivo .env en la raíz del proyecto:
 envDB_USERNAME=postgres
 DB_PASSWORD=tu_contraseña
 JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
-4. Ejecutar el proyecto
+5. Ejecutar el proyecto
 Bash./mvnw spring-boot:run
 O desde tu IDE (IntelliJ / Cursor / Eclipse).
 ---
-2. Configurar Base de Datos
-Crea una base de datos en PostgreSQL:
-SQLCREATE DATABASE reservaciones_db;
-3. Configurar variables de entorno
-Crea un archivo .env en la raíz del proyecto:
-envDB_USERNAME=postgres
-DB_PASSWORD=tu_contraseña
-JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 📡 Endpoints Disponibles
+##  Auth
+Método,Endpoint,Descripción
+POST,/api/auth/register,Registro de usuario
+POST,/api/auth/login,Inicio de sesión
+Método,Endpoint,Descripción
+GET,/api/test/hello,Endpoint de prueba
+<img width="924" height="470" alt="Captura de pantalla (34)" src="https://github.com/user-attachments/assets/fd3dfdaf-f764-48cc-92b7-1120838ce5ed" />
+---
