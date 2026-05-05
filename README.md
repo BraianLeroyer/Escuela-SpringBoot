@@ -58,7 +58,7 @@ JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 4. Ejecutar el proyecto
 Bash./mvnw spring-boot:run
 O desde tu IDE (IntelliJ / Cursor / Eclipse).
-
+---
 ##📡 Endpoints Disponibles
 Auth
 Método,Endpoint,Descripción
