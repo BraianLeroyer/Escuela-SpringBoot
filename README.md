@@ -41,9 +41,18 @@ Incluye sistema completo de autenticación con **JWT**.
 
 ---
 
+##📡 Endpoints Disponibles
+## 1. Auth
+Método,Endpoint,Descripción
+POST,/api/auth/register,Registro de usuario
+POST,/api/auth/login,Inicio de sesión
+Método,Endpoint,Descripción
+GET,/api/test/hello,Endpoint de prueba
+---
+
 ## ⚙️ Configuración Local
 
-## 1. Clonar el repositorio
+## 2. Clonar el repositorio
 ```bash
 git clone https://github.com/BraianLeroyer/Escuela-SpringBoot.git
 cd reservaciones-service
@@ -59,13 +68,14 @@ JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 Bash./mvnw spring-boot:run
 O desde tu IDE (IntelliJ / Cursor / Eclipse).
 ---
-##📡 Endpoints Disponibles
-Auth
-Método,Endpoint,Descripción
-POST,/api/auth/register,Registro de usuario
-POST,/api/auth/login,Inicio de sesión
-Método,Endpoint,Descripción
-GET,/api/test/hello,Endpoint de prueba
+2. Configurar Base de Datos
+Crea una base de datos en PostgreSQL:
+SQLCREATE DATABASE reservaciones_db;
+3. Configurar variables de entorno
+Crea un archivo .env en la raíz del proyecto:
+envDB_USERNAME=postgres
+DB_PASSWORD=tu_contraseña
+JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 
 
 
