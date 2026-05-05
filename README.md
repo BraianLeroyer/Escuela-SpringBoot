@@ -66,7 +66,8 @@ POST,/api/auth/register,Registro de usuario
 POST,/api/auth/login,Inicio de sesión
 Método,Endpoint,Descripción
 GET,/api/test/hello,Endpoint de prueba
-<img width="924" height="470" alt="Captura de pantalla (34)" src="https://github.com/user-attachments/assets/52f94e83-1581-429f-a727-500d055ad375" />
+
+<img width="924" height="470" alt="Captura de pantalla (34)" src="https://github.com/user-attachments/assets/33597c00-1c6c-4e15-9abe-fdd2832286d9" />
 
 
 
@@ -81,7 +82,6 @@ GET,/api/test/hello,Endpoint de prueba
 
 
 
-MétodoEndpointDescripciónGET/api/test/helloEndpoint de prueba
 
 
 
@@ -97,4 +97,3 @@ MétodoEndpointDescripciónGET/api/test/helloEndpoint de prueba
 
 
 
-MétodoEndpointDescripciónGET/api/test/helloEndpoint de prueba
