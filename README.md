@@ -59,7 +59,7 @@ JWT_SECRET=MiClaveSuperSecretaParaDesarrollo2026
 Bash./mvnw spring-boot:run
 O desde tu IDE (IntelliJ / Cursor / Eclipse).
 
-📡 Endpoints Disponibles
+###📡 Endpoints Disponibles
 Auth
 Método,Endpoint,Descripción
 POST,/api/auth/register,Registro de usuario
