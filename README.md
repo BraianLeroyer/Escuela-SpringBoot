@@ -46,6 +46,7 @@ Incluye sistema completo de autenticación con **JWT**.
 ```bash
 git clone https://github.com/BraianLeroyer/Escuela-SpringBoot.git
 
+Crear una nueva carpeta llamada: reservaciones-service / o Escuela-SpringBoot como el nombre de mi repositorio 
 cd reservaciones-service
 3. Configurar Base de Datos
 Crea una base de datos en PostgreSQL:
